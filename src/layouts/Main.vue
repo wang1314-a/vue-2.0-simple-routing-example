@@ -2,6 +2,7 @@
   <div class="container">
     <ul>
       <li>
+      // 设置了两个路由路径
         <v-link href="/">Home</v-link>
         <v-link href="/about">About</v-link>
       </li>
@@ -12,9 +13,11 @@
 </template>
 
 <script>
+  // 外部引入路由规则
   import VLink from '../components/VLink.vue'
 
   export default {
+    // 注册路由组件
     components: {
       VLink
     }
